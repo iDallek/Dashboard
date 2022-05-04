@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const SideBar = () => {
   return (
-    <div className="w-60 absolute sm:relative bg-white shadow md:h-screen flex-col justify-between flex">
+    <div className="shadow-xl w-60 absolute sm:relative bg-white shadow md:h-screen flex-col justify-between flex">
       <div className="px-8">
         <div className="h-16 w-full flex items-center my-12">
           <div className="m-auto">
