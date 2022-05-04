@@ -48,7 +48,7 @@ const Table = ({ data, rowsPerPage }) => {
               <td className="px-6 py-4">{order.orderId}</td>
               <td className="px-6 py-4">{order.orderDate}</td>
               <td className="px-6 py-4">
-                <span className="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                <span className="font-medium text-sky-500 dark:text-sky-600 hover:underline">
                   Ver quantidade
                 </span>
               </td>
@@ -58,7 +58,7 @@ const Table = ({ data, rowsPerPage }) => {
               <td className="px-6 py-4">
                 <button
                   type="button"
-                  className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                  className="inline-block w-full py-2.5 bg-sky-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-sky-600 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
                 >
                   {order.status[1]}
                 </button>
