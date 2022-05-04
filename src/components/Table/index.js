@@ -10,7 +10,7 @@ const Table = ({ data, rowsPerPage }) => {
   return (
     <>
       <table className="shadow-xl w-full text-sm text-left text-gray-500">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 bg-gray-100 text-gray-600">
+        <thead className="text-xs text-gray-700 uppercase bg-gray-50 text-gray-800">
           <tr>
             <th scope="col" className="px-6 py-3">
               Pedido
@@ -55,7 +55,7 @@ const Table = ({ data, rowsPerPage }) => {
               <td className="px-6 py-4">R$ {order.totalPrice}</td>
               <td className="px-6 py-4">{order.buyer}</td>
               <td className="px-6 py-4">{order.status[0]}</td>
-              <td className="px-6 py-4">
+              <td className="px-6 py-1.5">
                 <button
                   type="button"
                   className="inline-block w-full py-2.5 bg-sky-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-sky-600 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
