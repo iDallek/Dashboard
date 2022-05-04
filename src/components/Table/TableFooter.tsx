@@ -14,7 +14,7 @@ const TableFooter = ({ range, setPage, page, slice }: any) => {
           key={index}
           className={`${
             page === item
-              ? `bg-blue-500 text-white hover:bg-blue-600`
+              ? `bg-sky-500 text-white hover:bg-sky-600`
               : `bg-white hover:text-gray-500`
           } rounded mx-0.5 py-1 px-3 border border-gray-200`}
           onClick={() => setPage(item)}
