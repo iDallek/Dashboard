@@ -19,7 +19,7 @@ function Index() {
           <PerfilBar />
         </div>
         <StatusCards />
-        <div className="mb-8 w-full h-72 rounded border-dashed border-2 border-gray-300" />
+        <div className="mb-8 w-full h-64 rounded border-dashed border-2 border-gray-300" />
         <div className="font-semibold text-gray-700 shadow-md p-6 border-x bg-white border-t border-gray-100 rounded-t-xl text-xl">
           Últimos pedidos realizados
         </div>

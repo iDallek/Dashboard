@@ -15,7 +15,7 @@ const SideBar = () => {
   return (
     <>
       <div className="w-60 h-screen" />
-      <div className="fixed top-0 shadow-xl w-60 bg-white shadow md:h-screen flex-col justify-between flex">
+      <div className="fixed top-0 shadow-2xl w-60 bg-white shadow md:h-screen flex-col justify-between flex">
         <div className="px-8">
           <div className="h-16 w-full flex items-center my-12">
             <div className="m-auto">
