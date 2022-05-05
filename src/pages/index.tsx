@@ -5,6 +5,7 @@ import SideBar from '@/components/SideBar';
 import Table from '@/components/Table';
 import SearchBar from '@/components/SearchBar';
 import PerfilBar from '@/components/PerfilBar';
+import StatusCards from '@/components/StatusCards';
 
 function Index() {
   const [lastOrders] = useState([...lastOrdersData]);
@@ -17,12 +18,12 @@ function Index() {
           <SearchBar />
           <PerfilBar />
         </div>
-        <div className="mb-8 w-full h-28 rounded border-dashed border-2 border-gray-300" />
+        <StatusCards />
         <div className="mb-8 w-full h-72 rounded border-dashed border-2 border-gray-300" />
         <div className="font-semibold text-gray-700 shadow-md p-6 border-x bg-white border-t border-gray-100 rounded-t-xl text-xl">
           Últimos pedidos realizados
         </div>
-        <Table data={lastOrders} rowsPerPage={5} />
+        <Table data={lastOrders} rowsPerPage={4} />
       </div>
     </div>
   );
